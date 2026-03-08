@@ -1,0 +1,43 @@
+.appWrapper{
+    width:100%;
+}
+h1{
+    justify-self: center;
+    font-family: 'SEGA LOGO FONT';
+    font-size: 4em;
+    color: lightgreen;
+}
+h4{
+    justify-self: center;
+    font-size: 1.5em;
+    color: lightgreen;
+}
+.searchBoxWrapper{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.searchBox{
+    padding:10px;
+    background-color: rgba(196, 230, 255);
+    border-color: rgba(156, 185, 255);
+}
+.searchBox:focus{
+    border-color: rgba(156, 185, 255);
+    color-scheme:unset;
+}
+.scrollWrapper{
+    overflow-y: scroll;
+    border: 5px solid black;
+    height:1000px;
+    padding-right: 17px;
+    box-sizing: content-box;
+    width:100%;
+}
+
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('../assets/SEGA.TTF') format('woff');
+}

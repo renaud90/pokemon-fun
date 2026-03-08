@@ -1,0 +1,19 @@
+.cardListWrapper{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px 0px;
+    justify-content: space-around;
+    }
+.cardWrapper{
+    background-color: lightgreen;
+    margin:10px;
+    border-radius: 10px;
+    transition-duration: 1s;
+    box-shadow: 4px 3px 3px grey;
+}
+.cardWrapper:hover{
+    transform: scale(1.05);
+}
